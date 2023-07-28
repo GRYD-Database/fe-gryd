@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+#output {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    white-space: pre-wrap;
+    word-break: break-word;
+    color: #000;
+}
+
+#output.error {
+    color: #f44336;
+}
+
+.key {
+    color: #2196f3;
+}
+
+.value {
+    color: #4caf50;
+}
+
+.comma {
+    color: #777;
+}
+
+.brace {
+    color: #555;
+}
+
+.bracket {
+    color: #777;
+}
